@@ -32,7 +32,7 @@ Auto-schedule tasks during free slots
 4. 🔔 Notifications
 Custom push/email/mobile reminders
 
-"Time to review" alerts based on spaced repetition
+"Time to review" alerts based on spaced repetiton
 
 Real-time nudges when productivity dips
 
