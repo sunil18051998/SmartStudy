@@ -1,12 +1,12 @@
 import express from 'express';
 import dotenv from 'dotenv';
+dotenv.config();
 import cors from 'cors';
 import connectDB from './config/db.js';
 import taskRoutes from './routes/taskRoutes.js';
 import authRoutes from './routes/authRoutes.js';
 import calendarRoutes from './routes/calendarRoutes.js';
 
-dotenv.config();
 const app = express();
 
 // Middleware

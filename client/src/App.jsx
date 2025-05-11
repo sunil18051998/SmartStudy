@@ -13,6 +13,7 @@ function App() {
       <Route path="/login" element={<Auth type="login" />} />
         <Route path="/register" element={<Auth type="register" />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/" element={<Dashboard />} />
         <Route path="/tasks" element={<Tasks />} />
         <Route path="/connect-google" element={<GoogleAuth />} />
         <Route path="/calendar-connected" element={<CalendarConnected />} />
